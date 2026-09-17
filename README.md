@@ -1,7 +1,7 @@
-# tidy-downloads
+# anushka-tidy-folders
 
-[![npm version](https://img.shields.io/npm/v/tidy-downloads.svg)](https://www.npmjs.com/package/tidy-downloads)
-[![license](https://img.shields.io/npm/l/tidy-downloads.svg)](LICENSE)
+[![npm version](https://img.shields.io/npm/v/anushka-tidy-folders.svg)](https://www.npmjs.com/package/anushka-tidy-folders)
+[![license](https://img.shields.io/npm/l/anushka-tidy-folders.svg)](LICENSE)
 
 Sorts the loose files sitting in your Downloads folder into subfolders by type — Images, PDFs, Documents, Archives, Installers, Audio, Video. No config needed.
 
@@ -10,20 +10,20 @@ Sorts the loose files sitting in your Downloads folder into subfolders by type �
 Run it directly with no install:
 
 ```bash
-npx tidy-downloads
+npx anushka-tidy-folders
 ```
 
-Or install it globally to have the `tidy-downloads` command always available:
+Or install it globally — the command it adds is `tidy-downloads`:
 
 ```bash
-npm install -g tidy-downloads
+npm install -g anushka-tidy-folders
 tidy-downloads
 ```
 
 Organizes `~/Downloads` by default. To organize a different folder, pass its path:
 
 ```bash
-npx tidy-downloads ./some-other-folder
+npx anushka-tidy-folders ./some-other-folder
 ```
 
 ## What it does
